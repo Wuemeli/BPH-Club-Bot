@@ -1,0 +1,58 @@
+{
+  "name": "wuemeli/bphclub",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/say.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/kick.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/warn.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/ban.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/help.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/mute.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/lol.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/unban.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/punch.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/antiinvite.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/announce.js": {
+      "name": "discord.message.create"
+    }
+  },
+  "env": [
+    {
+      "name": "log_channel_id",
+      "description": "put the channel id of your log channel!"
+    },
+    {
+      "name": "BOT_OWNER_ID",
+      "description": "The ID of the bot's Owner ID (the ID of the bots creator)"
+    },
+    {
+      "name": "prefix",
+      "description": "The prefix you want to use for your command. Exampleː If your prefix is   !   then your command will be !𝐚𝐧𝐧𝐨𝐮𝐧𝐜𝐞"
+    },
+    {
+      "name": "announcement_channel_id",
+      "description": "The channel id of your announcement channel. Exampleː 𝟏𝟎𝟐𝟒𝟖𝟑𝟕𝟓𝟗𝟏𝟎𝟏𝟓𝟏𝟐𝟏𝟑𝟐"
+    }
+  ]
+}

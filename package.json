@@ -1,0 +1,11 @@
+{
+  "name": "bphclub",
+  "author": "Wuemeli",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "moment-timezone": "^0.5.34",
+    "prefix-parser": "^1.0.8",
+    "axios": "^0.24.0"
+  }
+}
